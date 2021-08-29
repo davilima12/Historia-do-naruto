@@ -1,16 +1,17 @@
 @charset "UTF-8";
 
 
-.titulo{
+#titulo{
     color: rgba(255, 255, 255, 0.658);
     text-align: center;
     font-size: 4em;
     margin: 0px;
-    
-    
+        
 }
 
 h2{
+    min-width:300px;
+    max-width: 800px;
     background-image: linear-gradient(to left, transparent, rgba(0, 0, 255, 0.534));
 }
 
@@ -46,7 +47,9 @@ font-size: 1.4em;
 
 
 }
+
 header{
+   
     background-image: linear-gradient(to bottom, transparent, rgb(2, 2, 2));
     text-align: center;
     color: white;
@@ -65,7 +68,8 @@ body{
 }
 main{
 background-color: rgba(255, 255, 255, 0);
-width: 800px;
+max-width: 800px;
+min-width: 300px;
 margin: auto;
 color: white;
 font-size: 1.8em;
@@ -77,9 +81,13 @@ box-shadow: 2px 5px 10px white;
 border-radius: 5px;
 }
 footer{
+    
     background-image: linear-gradient(to left, transparent, rgb(2, 2, 2));
     color: white;
 }
 footer a{
     color:red;
+}
+footer p{
+    text-align: center;
 }
