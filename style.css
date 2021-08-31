@@ -48,6 +48,13 @@ font-size: 1.4em;
 
 }
 
+main img{
+    display: block;
+    width: 100%;
+    margin: auto;
+    border-radius: 20px;
+}
+
 header{
    
     background-image: linear-gradient(to bottom, transparent, rgb(2, 2, 2));
@@ -69,7 +76,8 @@ body{
 main{
 background-color: rgba(255, 255, 255, 0);
 max-width: 800px;
-min-width: 300px;
+min-width: 200px;
+min-height: 200px;
 margin: auto;
 color: white;
 font-size: 1.8em;
@@ -79,6 +87,10 @@ text-shadow: 2px 3px 10px black;
 line-height: 1.6;
 box-shadow: 2px 5px 10px white;
 border-radius: 5px;
+}
+main p{
+    margin: 20px;
+    
 }
 footer{
     
